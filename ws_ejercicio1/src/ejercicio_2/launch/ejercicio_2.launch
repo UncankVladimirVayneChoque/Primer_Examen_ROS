@@ -1,0 +1,6 @@
+<launch>
+    <node name="eje2_codigo1_pub_twist" pkg="ejercicio_2" type="eje2_codigo1_pub_twist.py" output="screen"/>
+    <node name="eje2_codigo2_sub_pub_twist" pkg="ejercicio_2" type="eje2_codigo2_sub_pub_twist.py" output="screen"/>
+    <node name="eje2_codigo3_sub_lineal_point" pkg="ejercicio_2" type="eje2_codigo3_sub_lineal_point.py" output="screen"/>
+    <node name="eje2_codigo4_sub_angular_point" pkg="ejercicio_2" type="eje2_codigo4_sub_angular_point.py" output="screen"/>
+</launch>

@@ -1,0 +1,13 @@
+controller_list:
+  - name: fake_motoman_gp4_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - joint_1_s
+      - joint_2_l
+      - joint_3_u
+      - joint_4_r
+      - joint_5_b
+      - joint_6_t
+initial:  # Define initial robot poses per group
+  - group: motoman_gp4
+    pose: init_pose

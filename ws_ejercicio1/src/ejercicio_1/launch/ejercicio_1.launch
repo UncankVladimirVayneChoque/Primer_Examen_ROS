@@ -1,0 +1,6 @@
+<launch>
+    <node name="eje1_codigo1_pub_int" pkg="ejercicio_1" type="eje1_codigo1_pub_int.py" output="screen"/>
+    <node name="eje1_codigo2_pub_float" pkg="ejercicio_1" type="eje1_codigo2_pub_float.py" output="screen"/>
+    <node name="eje1_codigo3_sub_pub_point" pkg="ejercicio_1" type="eje1_codigo3_sub_pub_point.py" output="screen"/>
+    <node name="eje1_codigo4_sub_point" pkg="ejercicio_1" type="eje1_codigo4_sub_point.py" output="screen"/>
+</launch>
