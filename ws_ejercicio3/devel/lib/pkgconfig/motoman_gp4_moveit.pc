@@ -1,0 +1,8 @@
+prefix=/home/vayne/Videos/Primer_Examen_ROS/ws_ejercicio3/devel
+
+Name: motoman_gp4_moveit
+Description: Description of motoman_gp4_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

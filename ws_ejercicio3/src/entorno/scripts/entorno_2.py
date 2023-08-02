@@ -27,16 +27,16 @@ def main():
     group_names = robot.get_group_names()
     current_state = robot.get_current_state()
 
-     #----------------------------PILAR
+     #----------------------------Mesa
 
     aux_pose = geometry_msgs.msg.PoseStamped()
     aux_pose.header.frame_id = "base_link"
     aux_pose.pose.orientation.w = 1.0
-    aux_pose.pose.position.x = 0.6
+    aux_pose.pose.position.x = 0.5
     aux_pose.pose.position.y = 0.0
     aux_pose.pose.position.z = 0.2
-    box_name = "pilar"
-    scene.add_box(box_name, aux_pose, size=(0.4, 0.4, 0.4))
+    box_name = "mesa"
+    scene.add_box(box_name, aux_pose, size=(0.2, 0.3, 0.4))
 
     #----------------------------PAREDES
 

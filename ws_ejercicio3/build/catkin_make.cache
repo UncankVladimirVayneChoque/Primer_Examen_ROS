@@ -1,0 +1,2 @@
+entorno:motoman_gp4_moveit:motoman_gp4_support:motoman_resources:secuencia
+-DCATKIN_DEVEL_PREFIX=/home/vayne/Videos/Primer_Examen_ROS/ws_ejercicio3/devel -DCMAKE_INSTALL_PREFIX=/home/vayne/Videos/Primer_Examen_ROS/ws_ejercicio3/install -G Unix Makefiles

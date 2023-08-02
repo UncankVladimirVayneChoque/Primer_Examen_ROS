@@ -347,17 +347,16 @@ print("Angulos: ", joint_list)
 print("Posicion (x,y,z): ", cartesian_position)
 print("Orientacion (r,p,y): ", cartesian_orientation)
 
-robot.scale_ROT = 1.0
-robot.joints_move("j2", "reverse")
-
-
 robot.scale_LIN = 0.1
-robot.cartesian_pos("z", "forward")
+robot.cartesian_pos("y", "reverse")
 
-robot.scale_LIN = -0.1
+robot.scale_LIN = 0.17
+robot.cartesian_pos("x", "forward")
+
+robot.scale_LIN = 4.3
 robot.cartesian_pos("y", "forward")
 
-robot.scale_LIN = -0.1
-robot.cartesian_pos("z", "forward")
+robot.scale_LIN = 0.17
+robot.cartesian_pos("x", "reverse")
 
 robot.go_to_home()

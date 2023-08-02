@@ -1,0 +1,8 @@
+prefix=/home/vayne/Videos/Primer_Examen_ROS/ws_ejercicio3/install
+
+Name: motoman_gp4_support
+Description: Description of motoman_gp4_support
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
